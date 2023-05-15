@@ -1,3 +1,6 @@
 <MainContainer>
-  <DogComponent/>
+  {{#each this.model as |dog|}}
+   <DogComponent @dog={{dog}}/>
+  {{/each}}
+
 </MainContainer>

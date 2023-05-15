@@ -1,4 +1,8 @@
-<LinkTo @route="dog" @model="1" class="dog">
+<LinkTo @route="dog" @model={{@dog.id}} class="dog">
   <Dog::Image/>
-  <Dog::Details/>
+  <Dog::Details
+  @name={{@dog.name}}
+  @breed={{@dog.breed}}
+  @owner={{@dog.owner}}
+  />
 </LinkTo>

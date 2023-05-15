@@ -1,15 +1,22 @@
 <MainContainer>
   <div class="dog dog-details-page">
     <Dog::Image />
-    <Dog::Details />
+    <Dog::Details
+      @name={{this.model.name}}
+     />
   </div>
-  <h5 class="mt-5">About Saul</h5>
+  <h5 class="mt-5">About {{this.model.name}}</h5>
   <ul>
-    <li>Breed: Lab</li>
-    <li>Owner: Dave</li>
-    <li>Size: LG</li>
-    <li>Description: An energetic lab that loves to play</li>
-    <li>Meals: Breakfast: Acorns, Dinner: kibble</li>
-    <li>Activities: Walks, belly rubs, naps</li>
+    <li>Breed: {{this.model.breed}}</li>
+    <li>Owner: {{this.model.owner}}</li>
+    <li>Size: {{this.model.size}}</li>
+    <li>Description: {{this.model.description}}</li>
+    <li>Breakfast: {{this.model.meals.breakfast}}</li>
+    <li>Dinner: {{this.model.meals.dinner}} </li>
+    <ul> Activities
+    {{#each this.model.activities as |activity| }}
+      <li>{{activity}}</li>
+    {{/each}}
+    </ul>
   </ul>
 </MainContainer>
