@@ -11,6 +11,7 @@ export default [
       dinner: 'kibble',
     },
     activities: ['walks', 'belly rubs', 'naps'],
+    image: '/assets/happy-labrador.jpeg',
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export default [
       dinner: 'wet can food',
     },
     activities: ['walks', 'belly rubs', 'dog park'],
+    image: '/assets/happy-labrador.jpeg',
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ export default [
       dinner: 'Steak',
     },
     activities: ['Office visits', 'cold tub', 'walks'],
+    image: '/assets/husky.jpeg',
   },
   {
     id: 4,
@@ -50,6 +53,7 @@ export default [
       dinner: 'more raw meat',
     },
     activities: ['gaurding the office', 'playing'],
+    image: '/assets/doberman.jpeg',
   },
   {
     id: 5,
@@ -63,6 +67,7 @@ export default [
       dinner: 'kibble',
     },
     activities: ['walks', 'belly rubs', 'dog park'],
+    image: '/assets/great-pyrenees.jpeg',
   },
   {
     id: 6,
@@ -76,6 +81,7 @@ export default [
       dinner: 'kibble',
     },
     activities: ['playing dress up', 'belly rubs', 'walks'],
+    image: '/assets/pitbull.jpeg',
   },
   {
     id: 7,
@@ -89,6 +95,7 @@ export default [
       dinner: 'wet food',
     },
     activities: ['naps'],
+    image: '/assets/husky.jpeg',
   },
   {
     id: 8,
@@ -102,6 +109,7 @@ export default [
       dinner: 'Merrick',
     },
     activities: ['belly rubs', 'head pats'],
+    image: '/assets/hound.jpeg',
   },
   {
     id: 9,
@@ -115,6 +123,7 @@ export default [
       dinner: 'socks',
     },
     activities: ['sleeping', 'eating laundry', 'playing with kids'],
+    image: '/assets/goldendoodle.jpeg',
   },
   {
     id: 10,
@@ -128,6 +137,7 @@ export default [
       dinner: 'steak',
     },
     activities: ['leadership', 'naps'],
+    image: '/assets/chihuahua.jpeg',
   },
   {
     id: 11,
@@ -141,5 +151,6 @@ export default [
       dinner: 'kibble',
     },
     activities: ['leadership', 'gaurding the office'],
+    image: '/assets/poodle.jpeg'
   },
 ];

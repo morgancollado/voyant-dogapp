@@ -1,5 +1,8 @@
 <LinkTo @route="dog" @model={{@dog.id}} class="dog">
-  <Dog::Image/>
+  <Dog::Image
+  @src={{@dog.image}}
+  @breed={{@dog.breed}}
+  />
   <Dog::Details
   @name={{@dog.name}}
   @breed={{@dog.breed}}

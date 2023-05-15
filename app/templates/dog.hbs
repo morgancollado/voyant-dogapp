@@ -1,6 +1,8 @@
 <MainContainer>
   <div class="dog dog-details-page">
-    <Dog::Image />
+    <Dog::Image
+      @src={{this.model.image}}
+    />
     <Dog::Details
       @name={{this.model.name}}
      />
